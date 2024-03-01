@@ -844,45 +844,45 @@ __webpack_require__.r(__webpack_exports__);
 const IndexPage = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("body", {
     id: "body",
-    className: "flex min-h-sreen"
+    className: "flex flex-col min-h-screen items-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", {
     id: "header",
-    className: "flex flex-col w-full h-fit shadow-ls"
+    className: "flex flex-col w-full h-fit items-center shadow-ls sticky top-0 bg-white"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "flex flex-row w-full h-fit"
+    className: "flex flex-row w-full h-fit bg-nhGold"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "flex flex-row w-1/2 h-fit items-center justify-start space-x-4"
+    className: "flex flex-row w-1/2 h-fit items-center justify-start space-x-4 py-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "antialaised border-r-2 border-black pr-4"
+    className: "font-semibold text-black antialaised border-r-2 border-black pr-4"
   }, "+1 603 123 4567"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "antialaised"
+    className: "font-semibold text-black antialaised"
   }, "github.unlocking468@passmail.net")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "flex flex-row w-1/2 h-fit items-center justify-end space-x-4"
+    className: "flex flex-row w-1/2 h-fit items-center justify-end space-x-4 py-4 opacity-100"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "antialaised"
+    className: "font-semibold text-black antialaised"
   }, "Instagram"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "antialaised"
+    className: "font-semibold text-black antialaised"
   }, "Flickr"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "antialaised"
+    className: "font-semibold text-black antialaised"
   }, "TikTok"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "antialaised"
+    className: "font-semibold text-black antialaised"
   }, "Facebook"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "antialaised"
+    className: "font-semibold text-black antialaised"
   }, "Facebook"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "antialaised"
+    className: "font-semibold text-black antialaised"
   }, "Facebook"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "antialaised"
+    className: "font-semibold text-black antialaised"
   }, "LinkedIn"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
-    className: "flex flex-row w-full h-fit"
+    className: "flex flex-row w-full h-fit bg-nhBlue text-white py-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex flex-row w-1/2 h-fit items-center justify-start space-x-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -895,34 +895,108 @@ const IndexPage = () => {
     width: 120,
     height: 120,
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2886144317.json */ "./.cache/caches/gatsby-plugin-image/2886144317.json")
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Northern New England Sign Company")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "flex flex-row w-1/2 max-h-full items-center justify-end space-x-4"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "antialaised text-4xl font-bold"
+  }, "Granite State Sign Company")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex flex-row w-1/2 max-h-full items-center justify-end space-x-4 py-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "antialaised"
+    className: "font-semibold antialaised"
   }, "Interior"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "antialaised"
+    className: "font-semibold antialaised"
   }, "Exterior"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "antialaised"
+    className: "font-semibold antialaised"
   }, "Vehicles"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "antialaised"
+    className: "font-semibold antialaised"
   }, "Clients"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "antialaised"
+    className: "font-semibold antialaised"
   }, "Gallery"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "antialaised"
+    className: "font-semibold antialaised"
   }, "Contact")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
-    id: "main"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", {
-    id: "footer"
-  }));
+    id: "main",
+    className: "flex flex-col w-2/3 h-fit py-4 leading-8"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "antialaised text-3xl font-bold mb-4"
+  }, "Custom Sign Design in Northern New England"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "antialaised mb-4"
+  }, "Since 1990, Granite State Sign Company has been known around the Northeast for our", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "text-2xl creative"
+  }, "creativity"), " and", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "text-xl font-semibold"
+  }, "quality"), ". With a focus on", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "text-xl font-semibold"
+  }, "superior craftsmanship"), ",", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "text-xl font-semibold"
+  }, " affordability"), ", and", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "text-xl font-semibold"
+  }, "service"), ", our finished products stand apart in the industry."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "antialaised mb-6"
+  }, "Our creative team delivers professionally designed signage for any application. We help you create a", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "text-xl font-semibold"
+  }, "powerful first impression"), " ", "for your business or organization."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex flex-row w-full h-96"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex flex-col w-1/2 h-full justify-center bg-slate-400"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex flex-col w-1/2 h-full justify-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "antialaised text-3xl font-bold mb-4"
+  }, "Exterior Sign Design"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
+    className: "px-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "antialaised list-disc"
+  }, "Carved and sandblasted signs"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "antialaised list-disc"
+  }, "Storefront lettering"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "antialaised list-disc"
+  }, "Granite signs"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "antialaised list-disc"
+  }, "Monuments"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "antialaised list-disc"
+  }, "Lighted and LED signs"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "antialaised list-disc"
+  }, "Dimensional lettering")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex flex-row w-full h-96"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex flex-col w-1/2 h-full justify-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "antialaised text-3xl font-bold mb-4"
+  }, "Exterior Sign Design"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
+    className: "px-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "antialaised list-disc"
+  }, "Carved and sandblasted signs"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "antialaised list-disc"
+  }, "Storefront lettering"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "antialaised list-disc"
+  }, "Granite signs"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "antialaised list-disc"
+  }, "Monuments"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "antialaised list-disc"
+  }, "Lighted and LED signs"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "antialaised list-disc"
+  }, "Dimensional lettering"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex flex-col w-1/2 h-full justify-center bg-slate-400"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", {
+    id: "footer",
+    className: "flex flex-col w-full h-fit bg-black text-white items-center justify-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex flex-col w-full items-center justify-center py-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "antialaised"
+  }, "2024\xA9 Granite State Sign Company"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "antialaised"
+  }, "123 North Main Street, Concord, NH 03301"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "antialaised italic text-light"
+  }, "\"Sign, sign, everywhere a sign; blockin' out the scenery, breakin' my mind. Do this, don't do that - can't you read the sign?\""))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
-const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Home Page");
+const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Granite State Sign Company");
 
 /***/ }),
 
