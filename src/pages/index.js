@@ -7,7 +7,7 @@ const IndexPage = () => {
     <body id="body" className="flex flex-col min-h-screen items-center">
       <header
         id="header"
-        className="flex flex-col w-full h-fit items-center shadow-ls sticky top-0 bg-white"
+        className="flex flex-col w-full h-fit items-center shadow-ls bg-white"
       >
         <div className="flex flex-row w-full h-fit bg-nhGold">
           <div className="flex flex-row w-1/2 h-fit items-center justify-start space-x-4 py-4">
@@ -45,44 +45,44 @@ const IndexPage = () => {
             </a>
           </div>
         </div>
-        <nav className="flex flex-row w-full h-fit bg-nhBlue text-white py-4">
-          <div className="flex flex-row w-1/2 h-fit items-center justify-start space-x-4">
-            <div className="flex flex-row w-fit h-fit items-center justify-center">
-              <StaticImage
-                src="../images/Seal_of_New_Hampshire.svg.png"
-                alt="logo"
-                placeholder="blurred"
-                layout="constrained"
-                width={120}
-                height={120}
-              />
-            </div>
-            <h1 className="antialaised text-4xl font-bold">
-              Granite State Sign Company
-            </h1>
-          </div>
-          <div className="flex flex-row w-1/2 max-h-full items-center justify-end space-x-4 py-2">
-            <a href="#" className="font-semibold antialaised">
-              Interior
-            </a>
-            <a href="#" className="font-semibold antialaised">
-              Exterior
-            </a>
-            <a href="#" className="font-semibold antialaised">
-              Vehicles
-            </a>
-            <a href="#" className="font-semibold antialaised">
-              Clients
-            </a>
-            <a href="#" className="font-semibold antialaised">
-              Gallery
-            </a>
-            <a href="#" className="font-semibold antialaised">
-              Contact
-            </a>
-          </div>
-        </nav>
       </header>
+      <nav className="flex flex-row w-full h-fit bg-nhBlue text-white py-4 sticky top-0">
+        <div className="flex flex-row w-1/2 h-fit items-center justify-start space-x-4">
+          <div className="flex flex-row w-fit h-fit items-center justify-center">
+            <StaticImage
+              src="../images/Seal_of_New_Hampshire.svg.png"
+              alt="logo"
+              placeholder="blurred"
+              layout="constrained"
+              width={120}
+              height={120}
+            />
+          </div>
+          <h1 className="antialaised text-4xl font-bold">
+            Granite State Sign Company
+          </h1>
+        </div>
+        <div className="flex flex-row w-1/2 max-h-full items-center justify-end space-x-4 py-2">
+          <a href="#" className="font-semibold antialaised">
+            Interior
+          </a>
+          <a href="#" className="font-semibold antialaised">
+            Exterior
+          </a>
+          <a href="#" className="font-semibold antialaised">
+            Vehicles
+          </a>
+          <a href="#" className="font-semibold antialaised">
+            Clients
+          </a>
+          <a href="#" className="font-semibold antialaised">
+            Gallery
+          </a>
+          <a href="#" className="font-semibold antialaised">
+            Contact
+          </a>
+        </div>
+      </nav>
       <main id="main" className="flex flex-col w-2/3 h-fit py-4 leading-8">
         <h2 className="antialaised text-3xl font-bold mb-4">
           Custom Sign Design in Northern New England

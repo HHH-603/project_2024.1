@@ -881,7 +881,7 @@ const IndexPage = () => {
   }, "Facebook"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
     className: "font-semibold text-black antialaised"
-  }, "LinkedIn"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
+  }, "LinkedIn")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
     className: "flex flex-row w-full h-fit bg-nhBlue text-white py-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex flex-row w-1/2 h-fit items-center justify-start space-x-4"
@@ -917,7 +917,7 @@ const IndexPage = () => {
   }, "Gallery"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
     className: "font-semibold antialaised"
-  }, "Contact")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
+  }, "Contact"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
     id: "main",
     className: "flex flex-col w-2/3 h-fit py-4 leading-8"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
