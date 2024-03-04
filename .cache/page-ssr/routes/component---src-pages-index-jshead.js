@@ -924,21 +924,21 @@ const IndexPage = () => {
     className: "antialaised text-3xl font-bold mb-4"
   }, "Custom Sign Design in Northern New England"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "antialaised mb-4"
-  }, "Since 1990, Granite State Sign Company has been known around the Northeast for our", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "text-2xl creative"
-  }, "creativity"), " and", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "text-xl font-semibold"
+  }, "Since 1990, Granite State Sign Company has been known around the Northeast for our ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "text-lg creative"
+  }, "creativity"), " ", "and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "font-semibold"
   }, "quality"), ". With a focus on", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "text-xl font-semibold"
+    className: "font-semibold"
   }, "superior craftsmanship"), ",", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "text-xl font-semibold"
+    className: "font-semibold"
   }, " affordability"), ", and", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "text-xl font-semibold"
+    className: "font-semibold"
   }, "service"), ", our finished products stand apart in the industry."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "antialaised mb-6"
   }, "Our creative team delivers professionally designed signage for any application. We help you create a", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "text-xl font-semibold"
-  }, "powerful first impression"), " ", "for your business or organization."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "font-semibold"
+  }, "powerful first impression"), " for your business or organization."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex flex-row w-full h-96"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex flex-col w-1/2 h-full justify-center bg-slate-400"
@@ -993,7 +993,7 @@ const IndexPage = () => {
     className: "antialaised"
   }, "123 North Main Street, Concord, NH 03301"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "antialaised italic text-light"
-  }, "\"Sign, sign, everywhere a sign; blockin' out the scenery, breakin' my mind. Do this, don't do that - can't you read the sign?\""))));
+  }, "\"From Lobster Boats to Lighthouse Quotes: Your Premier Signage Crafters in Northern New England!\""))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
 const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Granite State Sign Company");
